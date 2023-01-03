@@ -13,8 +13,8 @@ metadata:
   name: custom-role
 subjects:
 - kind: ServiceAccount
-  name: default
-  namespace: default
+  name: custom-scheduler
+  namespace: kube-system
 roleRef:
   kind: ClusterRole
   name: custom-role
